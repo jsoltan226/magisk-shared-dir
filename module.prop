@@ -1,0 +1,6 @@
+id=download_in_external_sd.jsoltan226
+name=Download dir bind mounter
+version=v0.1d dev
+versionCode=4
+author=jsoltan226
+description=This module will bind mount the 'Download' directory from your external SD Card onto the one from internal storage (/sdcard/Download). If no external SD is present, this module won't do anything.
