@@ -38,7 +38,7 @@ clean:
 	@$(PRINTF) "%-14s %-10s\n" "RM" "$(OUT_ZIP)"
 	@$(RM) $(OUT_ZIP)
 
-ifeq "$(PLATORM)" "Android"
+ifeq "$(PLATFORM)" "Android"
 install:
 	@$(PRINTF) "%-14s %-10s\n" "MAGISKINSTALL" "$(OUT_ZIP)"
 	@$(SUDO) $(MAGISK) --install-module $(OUT_ZIP) >$(SINKHOLE) PATH=\"/debug_ramdisk:/sbin:$PATH\"

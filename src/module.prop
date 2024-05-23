@@ -1,6 +1,6 @@
-id=download_in_external_sd.jsoltan226
-name=Download dir bind mounter
-version=v0.1e dev
-versionCode=5
+id=user-shared-dir
+name=Shared directory in internal storage
+version=v0.1f dev
+versionCode=6
 author=jsoltan226
-description=This module will bind mount the 'Download' directory from your external SD Card onto the one from internal storage (/sdcard/Download). If no external SD is present, this module won't do anything.
+description=This module creates a shared directory in each user's internal storage, to save storage space when all users need access to some large amount of data
